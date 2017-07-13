@@ -28,10 +28,10 @@ public class MainActivity extends AppCompatActivity {
                 setContentView(R.layout.activity_example1);
                 return true;
             case R.id.menu_item_example2:
-                setContentView(R.layout.activity_example1);
+                setContentView(R.layout.activity_example2);
                 return true;
             case R.id.menu_item_example3:
-                setContentView(R.layout.activity_example1);
+                setContentView(R.layout.activity_example3);
                 return true;
         }
         return super.onOptionsItemSelected(item);
